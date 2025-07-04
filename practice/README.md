@@ -2,4 +2,4 @@
 
 | Directory                         | Description             |
 | --------------------------------- | ----------------------- |
-| [sliding_window](/sliding_window) | Sliding Window Problems |
+| [sliding_window](/practice/sliding_window/) | Sliding Window Problems |
