@@ -1,6 +1,5 @@
-// Find the longest subarray of having sum k for an array of size n.
-
-// Find the maximum sum out of all sub-arrays of size k in an array of size n.
+// Find the longest subarray that has sum k in an array of size n.
+// The array contains positive numbers only.
 
 #include <bits/stdc++.h>
 using namespace std;
