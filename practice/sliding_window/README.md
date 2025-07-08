@@ -11,7 +11,8 @@
 
 ## Variable Size Window
 
-| Problem                                                                    | Description                                                                         | Revise | Difficulty |
-| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | :----: | :--------: |
-| [longest_subarray_sum_k.cpp](longest_subarray_sum_k.cpp)                   | Find the size longest subarray that has sum k (For positive numbers in array only). |   ✅   |     🟡     |
-| [longest_subarray_sum_k_negative.cpp](longest_subarray_sum_k_negative.cpp) | Find the size longest subarray that has sum k (For negative numbers also).          |   ✅   |     🟡     |
+| Problem                                                                      | Description                                                                         | Revise | Difficulty |
+| ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | :----: | :--------: |
+| [longest_subarray_sum_k.cpp](longest_subarray_sum_k.cpp)                     | Find the size longest subarray that has sum k (For positive numbers in array only). |   ✅   |     🟡     |
+| [longest_subarray_sum_k_negative.cpp](longest_subarray_sum_k_negative.cpp)   | Find the size longest subarray that has sum k (For negative numbers also).          |   ✅   |     🟡     |
+| [longest_substring_with_k_uniques.cpp](longest_substring_with_k_uniques.cpp) | Find the size longest substring with K Uniques                                      |   ✅   |     🟡     |
