@@ -21,14 +21,13 @@ int main() {
     int i = 0, j = 0, mx = INT16_MIN;
 
     while (j < str.length()) {
-
         mp[str[j]]++;
 
         if (mp.size() < k) {
             j++;
         }
         else if (mp.size() == k) {
-            mx = max(mx, (int)mp.size());
+            mx = max(mx, j - i + 1);
             j++;
         }
         else if (mp.size() > k) {
