@@ -17,3 +17,4 @@
 | [longest_subarray_sum_k_negative.cpp](longest_subarray_sum_k_negative.cpp)         | Find the size longest subarray that has sum k (For negative numbers also).          |   ✅   |     🟡     |
 | [longest_substring_with_k_uniques.cpp](longest_substring_with_k_uniques.cpp)       | Find the size longest substring with K Uniques                                      |   ✅   |     🟡     |
 | [longest_substring_without_repeating.cpp](longest_substring_without_repeating.cpp) | Longest Substring Without Repeating Characters                                      |   ✅   |     🟡     |
+| [minimum_window_substring.cpp](minimum_window_substring.cpp)                       | Minimum Window Substring                                                            |   ✅   |     🔴     |
