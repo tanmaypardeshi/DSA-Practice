@@ -67,15 +67,15 @@ void solve(int x, int y, int n, vector<string>& ans, string& path, vector<vector
     }
 
     for (const auto& choice : choices) {
-        int x = x + choice.dx;
-        int y = y + choice.dy;
-        if (isValid(x, y, n, arr)) {
-            arr[x][y] = 0;
+        int new_x = x + choice.dx;
+        int new_y = y + choice.dy;
+        if (isValid(new_x, new_y, n, arr)) {
+            arr[new_x][new_y] = 0;
             path.push_back(choice.dname);
 
-            solve(x, y, n, ans, path, arr, choices);
+            solve(new_x, new_y, n, ans, path, arr, choices);
 
-            arr[x][y] = 1;
+            arr[new_x][new_y] = 1;
             path.pop_back();
         }
     }

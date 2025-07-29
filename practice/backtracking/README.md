@@ -6,3 +6,4 @@
 | [largest_number_in_k_swaps.cpp](largest_number_in_k_swaps.cpp) | Print the largesr number after k swaps          |   ❌   |     🟢     |
 | [n_digit_increasing_order.cpp](n_digit_increasing_order.cpp)   | N Digit numbers with digits in increasing order |   ✅   |     🟡     |
 | [rat_maze.cpp](rat_maze.cpp)                                   | Rat Maze                                        |   ✅   |     🔴     |
+| [palindromic_partition.cpp](palindromic_partition.cpp)         | Print all palindromic partitions                |   ✅   |     🔴     |
