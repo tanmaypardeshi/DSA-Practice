@@ -9,3 +9,4 @@
 | [palindromic_partition.cpp](palindromic_partition.cpp)                           | Print all palindromic partitions                |   ✅   |     🔴     |
 | [word_break_2.cpp](word_break_2.cpp)                                             | Word Break 2                                    |   ✅   |     🔴     |
 | [letter_combination_of_phone_number.cpp](letter_combination_of_phone_number.cpp) | Letter Combinations of phone number             |   ✅   |     🔴     |
+| [n_queens.cpp](n_queens.cpp)                                                     | N-Queens Problem                                |   ✅   |     🔴     |
