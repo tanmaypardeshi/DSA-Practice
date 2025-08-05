@@ -56,6 +56,7 @@ int main() {
 bool isSolved(int x, int y, int n) {
     return x == n - 1 && y == n - 1;
 }
+
 bool isValid(int x, int y, int n, const vector <vector<int>>& arr) {
     return x >= 0 && y >= 0 && x < n && y < n && arr[x][y] == 1;
 }
