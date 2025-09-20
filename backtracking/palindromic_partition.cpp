@@ -8,7 +8,9 @@
 // All possible palindromic partitions
 // are printed.
 
-#include <bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<string>
 using namespace std;
 
 bool isPalindrome(string&);

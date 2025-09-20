@@ -1,6 +1,8 @@
 // Given a string of digits, return the largest number in k swaps.
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<string>
 using namespace std;
 
 void solve(string&, string&, int, int);

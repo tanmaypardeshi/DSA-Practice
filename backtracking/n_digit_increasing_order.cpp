@@ -10,7 +10,8 @@
 // Single digit numbers are considered to be 
 // strictly increasing order.
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 
 void solve(vector<int>&, int, int);

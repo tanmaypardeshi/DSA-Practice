@@ -10,8 +10,10 @@
 
 // Input: digits = ""
 // Output: []
-
-#include <bits/stdc++.h>
+#include<iostream>
+#include<unordered_map>
+#include<vector>
+#include<string>
 using namespace std;
 
 void solve(string&, int, string&, unordered_map<char, string>&);

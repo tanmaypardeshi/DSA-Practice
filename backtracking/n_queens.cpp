@@ -11,7 +11,8 @@
 // Output: [2 4 1 3 ] [3 1 4 2 ]
 // Explaination: These are the 2 possible solutions.
 
-#include <bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 
 void solve(int, vector<vector<int>>&, int, vector<int>&);

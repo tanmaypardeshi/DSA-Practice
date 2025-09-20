@@ -34,7 +34,9 @@
 //             ["3","4","5","2","8","6","1","7","9"]
 //         ]
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<string>
 using namespace std;
 
 bool solve(vector<vector<char>>&, int, int);

@@ -10,7 +10,10 @@
 // Explanation: All the words in the given 
 // sentences are present in the dictionary
 
-#include <bits/stdc++.h>
+#include<iostream>
+#include<unordered_set>
+#include<vector>
+#include<string>
 using namespace std;
 
 void solve(string&, int, vector<string>&, unordered_set<string>&);

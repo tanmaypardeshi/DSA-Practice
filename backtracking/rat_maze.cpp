@@ -20,7 +20,10 @@
 // and DDRDRR, when printed in sorted order 
 // we get DDRDRR DRDDRR
 
-#include <bits/stdc++.h>
+#include<iostream>
+#include<unordered_map>
+#include<vector>
+#include<string>
 using namespace std;
 
 struct Choice {

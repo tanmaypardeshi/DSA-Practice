@@ -1,6 +1,9 @@
 // Given a string, print all its permutations
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<unordered_set>
+#include<vector>
+#include<string>
 using namespace std;
 
 void solve(string &, int , vector<string> &);
