@@ -63,24 +63,24 @@ void print_raw(unordered_map<int, vector<int>>& graph) {
 void dfs(int node, unordered_map<int, vector<int>>& graph, vector<int>& visited) {
     stack<int> dfs_stack;
 
-	dfs_stack.push(node);
+    dfs_stack.push(node);
 
-	while(!dfs_stack.empty()) {
-		int node = dfs_stack.top();
-		dfs_stack.pop();
+    while(!dfs_stack.empty()) {
+        int top = dfs_stack.top();
+        dfs_stack.pop();
 
-		if(visited[node] == 1) {
-			continue;
-		}
+        if(visited[top] == 1) {
+            continue;
+        }
 
-		visited[node] = 1;
-		cout<<node<<" ";
+        visited[top] = 1;
+        cout<<top<<" ";
 
-		for(const auto & v: graph[node]) {
-			if(visited[v] == 0) {
-				dfs_stack.push(v);
-			}
-			
-		}
-	}
+        for(const auto& v: graph[top]) {
+            if(visited[v] == 0) {
+                dfs_stack.push(v);
+            }
+        }
+
+    }
 }
