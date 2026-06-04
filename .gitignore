@@ -1,5 +1,2 @@
-*.out
-.vscode
-.idea
-.editorconfig
 .DS_Store
+*.out
